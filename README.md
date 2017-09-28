@@ -14,8 +14,9 @@ No installation required
 ## Usage
 
 Call the script from the command line, passing in a mount point as an argument, e.g.:
+
 ~~~
 getdiskusage.py C:\Data\UserFiles
 ~~~
 
-JSON will output in the cmd window as well as to a data.json file in the same directory the script is located.
+JSON will output in the cmd window as well as to a file named data.json in the same directory the script is located.
