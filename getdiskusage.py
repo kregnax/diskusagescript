@@ -35,7 +35,8 @@ file_size_json = json.dumps(file_dict,indent = 4)
 
 print(file_size_json)
 
-with open('data.json', 'w') as outfile:
-    outfile.write(file_size_json)
+j_file = os.path.join(sys.path[0], 'data.json')
+with open(j_file, 'w') as out_file:
+    out_file.write(file_size_json)
 
 print('Data saved to data.json in script directory.')
