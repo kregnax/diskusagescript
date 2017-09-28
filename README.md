@@ -5,7 +5,7 @@ a .json file.
 
 ## Requirements
 
-Requres Python 2.7.10 or greater
+Requires Python 2.7.10 or greater
 
 ## Installation
 
